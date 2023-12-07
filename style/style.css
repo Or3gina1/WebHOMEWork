@@ -1,0 +1,41 @@
+h1 {
+    color: red;
+    
+}
+.pic{
+    width: 150px;
+}
+.head-text {
+    color: white;
+    background-color: blue;
+    width: 10em;
+    padding: 0px 0px 20px;
+}
+span {
+    color: red;
+}
+a:hover {
+    color: rgb(255, 0, 170);
+}
+h2 {
+    color: aliceblue;
+    background-color: green;
+    font-size: 24px;
+}
+.block-2 {
+    padding: 30px 30px 30px 30px;
+    font-size: 28px;
+}
+li {
+    border: 1px solid black;
+    font-weight: bold;
+    
+}
+.center {
+    padding: 10px 40px;
+   
+}
+.button:hover{
+    background-color: rgb(30, 255, 0);
+    cursor: pointer;
+}
