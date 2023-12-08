@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: rgb(26, 165, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 165, 217, 1) 0%,
+    rgba(29, 101, 253, 1) 85%,
+    rgba(6, 172, 233, 1) 100%
+  );
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 30px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.title__span {
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.offer__text {
+    font-size: 14px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.offer__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 55px;
+    background-color: rgb(229, 229, 1);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    transition: all 0.3s;
+}
+
+.offer__btn:hover {
+    background-color: rgb(230, 230, 96)
+}
+
+.expect {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.wraper__img {
+    width: 480px;
+}
+
+.wishes {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 100px;
+}
+
+.wish {
+    text-align: center;
+    width: 25%;
+}
+
+.wish h3 {
+    margin-top: 20px;
+}
+
+.wish p {
+    margin-top: 20px;
+}
+.input{
+    text-align: center;
+    margin-top: 60px;
+}
+.down_btn{
+    .offer__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 55px;
+        background-color: rgb(221, 1, 229);
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+        transition: all 0.3s;
+    }
+}
+.placeholder{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.container{
+    margin: auto;
+}
