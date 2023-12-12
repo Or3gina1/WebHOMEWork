@@ -1,0 +1,254 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+    font-family: "Gill Sans", sans-serif;
+}
+
+.main_container {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+header {
+    display: flex;
+    background: rgb(0, 16, 36);
+    background: linear-gradient(0deg,
+            rgba(0, 16, 36, 0.865983893557423) 0%,
+            rgb(8, 8, 201) 0%,
+            rgb(0, 255, 170) 100%);
+}
+
+.header_content {
+    align-items: start;
+    padding-top: 30px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    min-width: 450px;
+    margin: 0px auto;
+}
+
+.header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header_content-1 {
+    padding-top: 30px;
+    width: 400px;
+    height: 350px;
+}
+
+.title_span{
+    padding: 40px;
+    font-size: 50pt;
+}
+.title_span2{
+    padding: 20px;
+    font-size: 10pt;
+}
+.animate__animated animate__fadeInLeft{
+    --animate-duration: 1s;
+    
+}
+
+.btn_title {
+    padding:10px 26px 10px 26px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 55px;
+    background-color: rgb(229, 229, 1);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    transition: all 1s;
+    margin-bottom: 30px;
+    animation-name: btn;
+    border-radius: 55%;
+    animation: btn 2s infinite linear;
+    
+}
+
+
+.inner_div_content-1 {
+    align-items: start;
+    padding: 0px 100px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 450px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+
+}
+
+.inner_div_content-1-1 {
+    align-items: flex-end;
+    width: 200px;
+    text-align: center;
+    border-radius: 0%;
+    background-color: white;
+    transition: .5s ease-in-out;
+}
+
+.inner_div_content-1-1:hover {
+    
+    background-color: rgb(43, 214, 226);
+    border-radius: 18%;
+}
+
+
+.inner_div_block_2 {
+    padding-top: 30px;
+    background-color: rgb(178, 252, 176);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    animation-name: anim_binner_div_block_2;
+    animation: anim_binner_div_block_2 1s infinite linear;
+    
+}
+
+.inner_div_block_2-1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 10px;
+    overflow: hidden;
+    transition: height 1s;
+}
+
+
+.inner_div_block_2:hover  .inner_div_block_2-1{
+    height: 500px;
+    overflow: visible;
+}
+
+
+.section_title {
+    text-align: center;
+}
+
+@keyframes anim_binner_div_block_2{
+    0%{}
+    50%{
+        background-color: rgb(255, 255, 255);
+    }
+    100%{}
+}
+
+@keyframes btn{
+    0%{}
+    50%{
+        border-radius: 5%;
+    }
+    100%{}
+}
+@keyframes btn{
+    0%{}
+    50%{
+        border-radius: 5%;
+    }
+    100%{}
+}
+
+.form-control{
+    margin-top: 10px;
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    padding-left: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color: black;
+    
+}
+
+.send__btn {
+    padding:10px 26px 10px 26px ;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 55px;
+    background-color: rgb(229, 229, 1);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    transition: all 1s;
+    margin-bottom: 30px;
+    animation-name: btn;
+    border-radius: 55%;
+    animation: btn 2s infinite linear;
+}
+.footer {
+    display: flex;
+    padding: 10 px;
+    height: 100px;
+    color: white;
+    background: rgb(0, 16, 36);
+    background: linear-gradient(180deg,
+            rgba(215, 221, 229, 0.866) 0%,
+            rgba(9, 9, 121, 1) 0%,
+            rgba(0, 212, 255, 1) 100%);
+    justify-content: center;
+    align-content: center;
+    transition: height 3s;
+}
+.footer:hover {
+    height: 200px;
+}
